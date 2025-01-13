@@ -1,5 +1,8 @@
 ## NotifyMe
-Google calendar has a limit for event notifications of 28 days. Users can't set up reminder email to be sent earlier in GUI.
+Google calendar API has a limit for event notifications of 28 days. 
+
+Users can't set a reminder to be sent earlier from the GUI, nor by API call.
+
 This script uses a simple trigger word in the event title. 
 Should be run with a timer trigger of 1 day with failure notifications turned on.
 
