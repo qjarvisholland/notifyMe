@@ -1,8 +1,12 @@
 ## NotifyMe
 Google calendar has a limit for event notifications of 28 days. 
+
 Users can't set a reminder to be sent earlier.
 
+
 This script uses a simple trigger word somewhere in the event title. (default is  "notifyme")
+If the event is 30 days away, users are sent an email as a notification.
+
 Should be run with a timer trigger of 1 day with failure notifications turned on.
 
 ### To Deploy:
